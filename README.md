@@ -37,4 +37,7 @@ Dans cette activité, nous avons créé la classe `ServeurJWS` dans le package `
 ![](captures/10.png)
 ![](captures/9.png)
 
+### Activité 5 : Test avec SOAPUI
 
+Nous avons créé un nouveau projet dans SOAPUI et importé le WSDL de notre service Web. Ensuite, nous avons généré une requête pour l'opération `addition`, en renseignant les deux paramètres. Enfin, nous avons exécuté la requête et vérifié que le résultat retourné était correct.
+![](captures/11.png)
