@@ -21,3 +21,17 @@ Nous avons créé l'interface `ICalculatrice`, qui déclare les opérations disp
 
 
 ![](captures/6.png)
+## Activité 3 : Annotations avec Jakarta XML Web Services
+
+Nous avons utilisé les annotations de Jakarta XML Web Services pour exposer notre calculatrice comme un service web SOAP. Nous avons annoté l'interface `ICalculatrice` et la classe `CalculatriceWS` avec `@WebService`, puis utilisé `@WebMethod` pour définir les opérations exposées et `@WebParam` pour préciser les noms des paramètres échangés avec le client. Ces annotations permettent de contrôler la représentation du service dans le document WSDL.
+
+### Captures d'écran
+
+**1. Interface ICalculatrice annotée :**
+
+![](images/captures/7.png)
+![](images/captures/8.png)
+
+
+
+
