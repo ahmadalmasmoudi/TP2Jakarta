@@ -31,7 +31,10 @@ Nous avons utilisé les annotations de Jakarta XML Web Services pour exposer not
 
 ![](images/captures/7.png)
 ![](images/captures/8.png)
+### Activité 4 : Publication du Service Web
 
-
+Dans cette activité, nous avons créé la classe `ServeurJWS` dans le package `serveur` afin de publier notre service Web SOAP à l'aide de la méthode `Endpoint.publish()`, en spécifiant une URL d'accès au service. Après le démarrage du serveur, nous avons consulté le document WSDL à travers cette URL en ajoutant `?wsdl`. Cela nous a permis de comprendre la correspondance entre la classe métier `CalculatriceWS`, l'interface `ICalculatrice` qui définit le contrat, et les différents éléments du WSDL (`service`, `port`, `portType` et `operation`). Nous avons également examiné le XSD généré, qui décrit la structure des données XML échangées, notamment les paramètres et le résultat de l'opération `addition`.
+![](captures/10.png)
+![](captures/9.png)
 
 
