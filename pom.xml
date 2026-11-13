@@ -15,21 +15,21 @@
     </properties>
     <dependencies>
 
-        <!-- API JAX-WS -->
+
         <dependency>
             <groupId>jakarta.xml.ws</groupId>
             <artifactId>jakarta.xml.ws-api</artifactId>
             <version>4.0.3</version>
         </dependency>
 
-        <!-- Implémentation JAX-WS -->
+
         <dependency>
             <groupId>com.sun.xml.ws</groupId>
             <artifactId>jaxws-rt</artifactId>
             <version>4.0.3</version>
         </dependency>
 
-        <!-- Annotations JWS -->
+
         <dependency>
             <groupId>jakarta.jws</groupId>
             <artifactId>jakarta.jws-api</artifactId>

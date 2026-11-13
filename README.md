@@ -41,3 +41,7 @@ Dans cette activité, nous avons créé la classe `ServeurJWS` dans le package `
 
 Nous avons créé un nouveau projet dans SOAPUI et importé le WSDL de notre service Web. Ensuite, nous avons généré une requête pour l'opération `addition`, en renseignant les deux paramètres. Enfin, nous avons exécuté la requête et vérifié que le résultat retourné était correct.
 ![](captures/11.png)
+## Partie Client
+
+Dans cette partie, nous avons développé un client Java permettant de consommer le Web Service Calculatrice. Le client charge le fichier WSDL pour récupérer la description du service, identifie le service et son port à l'aide de `QName`, puis utilise `getPort()` pour obtenir un proxy permettant de communiquer avec le serveur distant. Enfin, il invoque les différentes opérations de la calculatrice (addition, soustraction, multiplication, etc.) comme des méthodes Java ordinaires. La communication entre le client et le serveur est assurée par le protocole SOAP via HTTP.
+![](captures/12.png)
